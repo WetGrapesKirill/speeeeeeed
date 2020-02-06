@@ -1,0 +1,144 @@
+.choose {
+    padding: 120px 0;
+}
+.choose__title {
+    margin-bottom: 58px;
+    margin-top: 81px;
+}
+.choose__button {
+    margin-top: 15px;
+}
+.do {
+    text-align: center;
+}
+.do__item {
+    position: relative;
+}
+.do__item:not(:last-child):after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    border-top: 1px white dotted;
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+    padding-top: 50%;
+    transform: translate(50%, -30%);
+}
+.do__title {
+    margin-top: 16px;
+}
+.do__icon {
+    font-size: 62px;
+    background-color: #333;
+    position: relative;
+    z-index: 1;
+    padding-top: 14px;
+}
+.do__icon--darkblue {
+    color: #5474fd;
+}
+.do__icon--orange {
+    color: #ff6363;
+}
+.do__icon--blue {
+    color: #00a2ff;
+}
+.travel {
+    padding-top: 230px;
+    padding-bottom: 100px;
+}
+.travel__panel {
+    background-color: rgba(35, 35, 35, 0.9);
+    padding: 29px;
+    padding-bottom: 50px;
+}
+.travel__country {
+    color: #e8e8e8;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 17px;
+    margin-bottom: 23px;
+    font-weight: 300;
+}
+.travel__title {
+
+}
+.travel__text {
+    letter-spacing: -.036em;
+    margin: 1.2em 0;
+}
+.travel__button {
+    margin-top: 22px;
+}
+.review {
+    padding-top: 88px;
+    padding-bottom: 190px;
+}
+.review__title {
+    text-align: center;
+    margin-bottom: 93px;
+}
+.review__panel {
+    background-color: #333;
+    padding: 28px 41px;
+}
+.review__name {
+    margin-bottom: 31px;
+}
+.footer {
+    background-color: #232323;
+    padding-top: 118px;
+    padding-bottom: 49px;
+    text-align: center;
+}
+.footer__title {
+    margin-top: 6px;
+    margin-bottom: 23px;
+}
+.social {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.social__item {
+    margin: 0 9px;
+    display: inline-block;
+}
+.social__link {
+    color: white;
+    text-decoration: none;
+}
+.social__link:hover {
+    color: #5474fd;
+}
+.social__link:focus {
+    filter: contrast(1.5);
+}
+.no-webp .section--travel1 {
+    background-image: url(../img/bg--travel1.jpg);
+}
+.webp .section--travel1 {
+    background-image: url(../img/bg--travel1.webp);
+}
+.no-webp .section--travel0 {
+    background-image: url(../img/bg--travel0.jpg);
+}
+.webp .section--travel0 {
+    background-image: url(../img/bg--travel0.webp);
+}
+.no-webp .section--choose {
+    background-image: url(../img/bg--choose.jpg);
+}
+.webp .section--review {
+    background-image: url(../img/bg--review.webp);
+}
+.webp .section--choose {
+    background-image: url(../img/bg--choose.webp);
+}
+.no-webp .section--review {
+    background-image: url(../img/bg--review.jpg);
+}
